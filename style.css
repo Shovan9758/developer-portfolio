@@ -4,7 +4,7 @@ body{
 }
 h1{font-size: 50px;}
 span{color: orangered;}
-section{
+.flexible_container{
     display: flex;
     margin-bottom: 150px;
 }
@@ -30,5 +30,27 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat; 
     background-position: right ;
-
 }
+.orange-color{color: orangered;}
+.expirience-item{
+    box-shadow: 10px 10px 10px gray;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10px 20px;
+}
+.Third{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+h2{font-size: 30px;}
+#exprience-work1{ 
+    border-left: 8px solid;
+    border-image: linear-gradient(blue,aqua);
+    border-image-slice: 1;
+}
+#exprience-work2{ 
+    border-left: 8px solid;
+    border-image: linear-gradient(salmon,tomato);
+    border-image-slice: 1;
+}
+footer p{text-align: center;}
